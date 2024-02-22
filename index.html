@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META_TAGS -->
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="DESCRIZIONE" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="LINK FONTS GOOGLE" rel="stylesheet" />
+
+    <!-- FONTAWESOME 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/css/style.css" />
+
+    <!-- WEBPAGE_NAME -->
+    <title>TITOLO</title>
+  </head>
+  <body>
+    <!-- BEGIN_HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <img class="logo" src="./assets/logo.svg" alt="" />
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="nav" id="navId" role="tablist">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#tab2Id">Action</a>
+                  <a class="dropdown-item" href="#tab3Id">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#tab4Id">Action</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Landings</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#tab2Id">Action</a>
+                  <a class="dropdown-item" href="#tab3Id">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#tab4Id">Action</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#tab2Id">Action</a>
+                  <a class="dropdown-item" href="#tab3Id">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#tab4Id">Action</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accounts</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#tab2Id">Action</a>
+                  <a class="dropdown-item" href="#tab3Id">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#tab4Id">Action</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <i class="far fa-bell rounded-circle p-3"></i>
+          <div class="position-relative">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+              ><img class="avatar rounded-5" src="./assets/avatar-1.jpg" alt=""
+            /></a>
+
+            <span class="position-absolute bottom-0 end-0 p-2 bg-danger border border-light rounded-circle"></span>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#tab2Id">Action</a>
+              <a class="dropdown-item" href="#tab3Id">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#tab4Id">Action</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Tab panes -->
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+      </div>
+    </header>
+    <!-- END_HEADER -->
+
+    <!-- BEGIN_MAIN -->
+    <main>
+      <div class="hero-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col hero-text pt-5 pt-lg-0">
+              <h1>Welcome Web Students!</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eligendi tempore atque laborum. Quisquam nemo at non. Corrupti, vitae dolore.</p>
+              <button class="btn1 mb-2">Browse Courses</button>
+              <button class="btn2">Are You Instructor?</button>
+            </div>
+            <div class="col"><img src="./assets/hero-img.png" class="" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bot border-bottom p-4 mb-10 shadow">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-4 py-3 py-lg-0">
+              <div class="row align-items-center">
+                <div class="col-2"><i class="fas fa-video rounded-circle p-3"></i></div>
+                <div class="col-10">
+                  <div class="d-flex flex-column">
+                    <h3>30,000 online courses</h3>
+                    <p>Enjoy a variety of fresh topics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 py-3 py-lg-0">
+              <div class="row align-items-center">
+                <div class="col-2"><i class="fas fa-video rounded-circle p-3"></i></div>
+                <div class="col-10">
+                  <div class="d-flex flex-column">
+                    <h3>30,000 online courses</h3>
+                    <p>Enjoy a variety of fresh topics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 py-3 py-lg-0">
+              <div class="row align-items-center">
+                <div class="col-2"><i class="fas fa-video rounded-circle p-3"></i></div>
+                <div class="col-10">
+                  <div class="d-flex flex-column">
+                    <h3>30,000 online courses</h3>
+                    <p>Enjoy a variety of fresh topics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- END_MAIN -->
+
+    <!-- BEGIN_FOOTER -->
+    <footer></footer>
+    <!-- END_FOOTER -->
+
+    <!-- BEGIN_SCRIPT -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- END_SCRIPT -->
+  </body>
+</html>
