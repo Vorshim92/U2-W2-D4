@@ -29,13 +29,13 @@
   <body>
     <!-- BEGIN_HEADER -->
     <header>
-      <nav class="navbar navbar-expand-sm navbar-light">
+      <nav class="navbar navbar-expand-sm">
         <div class="container">
           <img class="logo" src="./assets/logo.svg" alt="" />
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="nav" id="navId" role="tablist">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse</a>
+                <a class="nav-link text-black text-black dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#tab2Id">Action</a>
                   <a class="dropdown-item" href="#tab3Id">Another action</a>
@@ -44,7 +44,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Landings</a>
+                <a class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Landings</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#tab2Id">Action</a>
                   <a class="dropdown-item" href="#tab3Id">Another action</a>
@@ -53,7 +53,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                <a class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#tab2Id">Action</a>
                   <a class="dropdown-item" href="#tab3Id">Another action</a>
@@ -62,7 +62,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accounts</a>
+                <a class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accounts</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#tab2Id">Action</a>
                   <a class="dropdown-item" href="#tab3Id">Another action</a>
@@ -72,18 +72,21 @@
               </li>
             </ul>
           </div>
-          <i class="far fa-bell rounded-circle p-3"></i>
-          <div class="position-relative">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
-              ><img class="avatar rounded-5" src="./assets/avatar-1.jpg" alt=""
-            /></a>
-
-            <span class="position-absolute bottom-0 end-0 p-2 bg-danger border border-light rounded-circle"></span>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#tab2Id">Action</a>
-              <a class="dropdown-item" href="#tab3Id">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#tab4Id">Action</a>
+          <div class="row">
+            <div class="col-6 position-relative">
+              <i class="far fa-bell rounded-circle p-3"></i><span class="position-absolute top-0 p-2 bg-warning border border-light rounded-circle" style="right: 15px"></span>
+            </div>
+            <div class="col-6 position-relative">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+                ><img class="avatar rounded-5" src="./assets/avatar-1.jpg" alt=""
+              /></a>
+              <span class="position-absolute bottom-0 p-2 bg-danger border border-light rounded-circle" style="right: 15px"></span>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#tab2Id">Action</a>
+                <a class="dropdown-item" href="#tab3Id">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#tab4Id">Action</a>
+              </div>
             </div>
           </div>
         </div>
